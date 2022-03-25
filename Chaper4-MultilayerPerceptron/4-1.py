@@ -29,3 +29,4 @@ updater=torch.optim.SGD(params,lr=lr)
 d2l.train_ch3(net,train_iter,test_iter,loss,num_epochs,updater)
 
 d2l.predict_ch3(net,test_iter)
+d2l.plt.show()
